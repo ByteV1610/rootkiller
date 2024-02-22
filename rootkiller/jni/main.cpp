@@ -94,7 +94,7 @@ void power_killer(){
 
 int main(int argc, char* argv[]) {
    if (argc > 1) {
-        //Exceptional App UID As Argv[1] (Which You Dont Want To Be Killed And As Root Access)
+        //Exceptional App UID As Argv[1] (Which You Dont Want To Be Killed And Has Root Access)
         my_app = argv[1];
        /* while (true){
           loop_anti_dump();
