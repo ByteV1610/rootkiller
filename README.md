@@ -1,6 +1,6 @@
 # Android RootKiller
 
-RootKiller is a executable tool designed to enhance the security of game hack plugins, particularly for game reversers who may encounter issues such as Traffic Capturing, bypass dumping, or reverse engineering attempts on there own application. It works by terminating other root-granted apps running on the device.
+RootKiller is a executable tool designed to enhance the security of game hack plugins, particularly for game reversers who may encounter issues such as Traffic Capturing, bypass dumping, or reverse engineering attempts on there own application done by leechers. It works by terminating other root-granted apps running on the device.
 
 ## Features
 
