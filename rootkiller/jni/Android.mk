@@ -14,17 +14,11 @@ LOCAL_LDFLAGS += -Wl,--gc-sections,--strip-all -llog
 LOCAL_ARM_MODE := arm
 
 LOCAL_CPP_FEATURES := exceptions
-
 LOCAL_C_INCLUDES += $(MAIN_LOCAL_PATH)
-
 LOCAL_SRC_FILES := main.cpp \
                       sqlite/sqlite3.c
 
 LOCAL_MODULE := rootkiller
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/sqlite/sqlite3.c
-
-#LOCAL_LDLIBS := -llog -landroid -lGLESv2 -lz
-
-#LOCAL_STATIC_LIBRARIES := libcurl libssl libcrypto
 
 include $(BUILD_EXECUTABLE)
